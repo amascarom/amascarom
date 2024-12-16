@@ -1,0 +1,241 @@
+/* ESTIL */
+body {
+    background-color: lightblue;
+}
+
+header {
+    margin: auto;
+    font-size: 150%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-weight: bolder;
+    padding: 0,5rem;
+}
+
+nav {
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-align: center;
+    font-size: 150%;
+    text-shadow: 2px 2px 0 black;
+    border-style: solid;
+    border-width: 2px;
+    border-color: grey;
+}
+
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+#enllaç {
+    color: white;
+}
+
+/* ESTIL */
+/* HORARI */
+
+table, th, td {
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+}
+
+#fake-colspan {
+    border-left: hidden;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+  }
+
+.m1 {
+    background-color: rgb(128, 128, 234);
+}
+
+.m2 {
+    background-color: rgb(23, 189, 103);
+}
+
+.m4 {
+    background-color: rgb(241, 155, 25);
+}
+
+.m9 {
+    background-color: rgb(243, 39, 29);
+}
+
+.ipo1 {
+    background-color: rgb(59, 54, 57);
+}
+
+.an {
+    background-color: rgb(128, 128, 234);
+}
+
+.tut {
+    background-color: rgb(128, 128, 234);
+}
+
+#ths {
+    background-color: rgb(255, 255, 0);
+}
+
+#pati {
+    background-color: brown;
+}
+
+.hora {
+    background-color: rgb(227, 227, 58);
+}
+
+
+#div-gran {
+    display: flex;
+    justify-content: space-between;
+}
+
+#Assignatures {
+    width: 620px;
+}
+
+#Moodle {
+    width: 800px;
+}
+
+/* HORARI */
+/* GALERIA */
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1800px;
+}
+
+.nom-imatge {
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+.div-galeria {
+    position: relative;
+    overflow: hidden;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.div-galeria img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.div-galeria:hover img {
+    transform: scale(1.02);
+}
+
+#div-galeria-video {
+    position: relative;
+    overflow: hidden;
+    width: 450px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    background-color: black;
+}
+
+/* GALERIA */
+/* FORMULARI */
+.formulari {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+input, select, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    width: auto;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: grey;
+}
+
+.input {
+    width: 96%;
+}
+
+.sexe {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#politica {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#accepto {
+    width: 60%;
+}
+
+fieldset {
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 1.5rem;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto; 
+}
+
+/* FORMULARI */
